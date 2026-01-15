@@ -12,3 +12,4 @@ C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\refint\
 C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.pdb
 C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.genruntimeconfig.cache
 C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\ref\POOsuite.dll
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.sourcelink.json

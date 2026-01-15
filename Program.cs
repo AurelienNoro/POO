@@ -61,3 +61,32 @@ enclosNord.RemoveAnimal(rex);
 enclosNord.GetAnimalList();
 Console.WriteLine("-------------------------------------------------------------------------");
 
+
+
+
+
+////// EXERCICE 2 ///////
+
+Order order1 = new Order("alice", 150.75m);
+Order order2 = new Order("Bob", 299.99m);
+Order order3 = new Order("Charlie", 49.50m);
+
+Console.WriteLine("------Commandes Créées------");
+Console.WriteLine($"Total des commandes créées: {Order.CreatedOrdersCount}");
+Console.WriteLine($"Montant total des commandes créées: {Order.TotalAmountCreated} $");
+Console.WriteLine("");
+
+order1.Cancel();
+order2.Cancel();
+Console.WriteLine("------Commandes Annulées------");
+Console.WriteLine($"Total des commandes annulées: {Order.CancelledOrdersCount}");
+Console.WriteLine($"Montant total des commandes créées après annulation: {Order.TotalAmountCreated} $");
+
+Console.WriteLine("");
+Console.WriteLine("------Etat des commandes en cours------");
+order1.DisplayOrderInfo();
+order2.DisplayOrderInfo();
+order3.DisplayOrderInfo();
+
+order1.CustomerName = OrderUtils.NormalizeCustomerName(order1.CustomerName);
+Console.WriteLine($"Nom du client normalisé pour la commande 1: {order1.CustomerName}");
