@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
+using System.Text;
+using System.Threading.Channels;
+
+namespace POOsuite
+{
+    internal class VetoReport
+    {
+        //Attribut
+        private string animalName;
+        private string notes;
+        private int severity;
+    
+        //Proprietes
+        public string AnimalName { get { return animalName; } set { animalName = value; } }
+        public string Notes { get { return notes; } set { notes = value; } }
+        public int Severity { get { return severity; } set { severity = value; } }
+
+        //Constructeur
+        public VetoReport(string animalName, string notes, int severity)
+        {
+            this.animalName = animalName;
+            this.notes = notes;
+            this.severity = severity;
+        }
+        //Methodes
+
+        public void SetAnimalName(string name)
+        {
+            animalName = name;
+        }
+
+        //public void SetNotes(string reportNotes)
+        //{
+        //    notes = reportNotes;
+        //}
+        //public void SetSeverity(int reportSeverity)
+        //{
+        //    if (severity < 0 || Severity > 5)
+        //    Console.WriteLine($"La sévérité doit-étre entre 1 et 5");
+        //    else
+        //    severity = reportSeverity;
+        //}
+
+        public void PrintReport()
+        {
+            if (severity < 1 || severity > 5)
+            { 
+            Console.WriteLine($"La sévérité doit-étre comprise entre 1 et 5, merci de recommencer");
+            }
+            else {
+            Console.WriteLine($"Rapport vétérinaire pour {animalName} :");
+            Console.WriteLine($"{notes}");
+            Console.WriteLine($"Sévérité : {Severity}/5");
+        }
+    }
+}
+}
+
