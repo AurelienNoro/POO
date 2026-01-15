@@ -1,0 +1,14 @@
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\bin\Debug\net10.0\POOsuite.exe
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\bin\Debug\net10.0\POOsuite.deps.json
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\bin\Debug\net10.0\POOsuite.runtimeconfig.json
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\bin\Debug\net10.0\POOsuite.dll
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\bin\Debug\net10.0\POOsuite.pdb
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.AssemblyInfoInputs.cache
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.AssemblyInfo.cs
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.dll
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\refint\POOsuite.dll
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.pdb
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\POOsuite.genruntimeconfig.cache
+C:\Users\Administrateur\source\repos\POOsuite\POOsuite\obj\Debug\net10.0\ref\POOsuite.dll
